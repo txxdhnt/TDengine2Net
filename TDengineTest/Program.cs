@@ -19,7 +19,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Collections;
 using TDengine2Net;
-namespace TDengineDriver
+namespace TDengineTest
 {
     class Program
     {
@@ -30,7 +30,7 @@ namespace TDengineDriver
             Console.WriteLine("Starting Testing...");
             Console.WriteLine("---------------------------------------------------------------");
             TDengine td = new TDengine();
-            td.Connect("49.234.110.126", 6035, "root", "taosdata", "");
+            td.Connect("49.234.110.126", 6030, "root", "taosdata", "");
             //td.Connect("192.168.1.101", 6030, "root", "taosdata", "demo");
 
             td.CreateDB("demo");

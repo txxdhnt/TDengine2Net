@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TDengine2Net
 {
-    enum TSDB_CODE
+   public enum TSDB_CODE
     {
         SUCCESS = 0,
         ACTION_IN_PROGRESS = 1,
@@ -128,7 +128,7 @@ namespace TDengine2Net
 
         MAX_ERROR_CODE = 120,
     }
-    enum TSDB_DATA_TYPE : byte
+    public enum TSDB_DATA_TYPE : byte
     {
         BOOL = 1,
         TINYINT = 2,
@@ -142,7 +142,7 @@ namespace TDengine2Net
         NCHAR = 10
     }
 
-    enum TSDB_OPTION
+    public enum TSDB_OPTION
     {
         LOCALE = 0,
         CHARSET = 1,
